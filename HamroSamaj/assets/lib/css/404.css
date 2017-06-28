@@ -1,0 +1,55 @@
+body {
+background: linear-gradient(270deg, #01acde, #c5d201, #f59a00, #e30613, #df176f);
+background-size: 1000% 1000%;
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+-o-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+html, body, #wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+        font-family: 'ralewaymedium';
+    color: #FFF;
+    font-size: 18px;
+    line-height: 28px;
+}
+.content-txt {margin: 0 auto;width: 80%}
+#wrapper .text{  font-family: 'ralewaybold'; font-size:25px;    margin: 20px 0 0 0;}
+
+
+#wrapper img{ width:480px;}
+@media (max-width: 768px){
+	#wrapper img{ width:80%;}
+	#wrapper td{    font-size:16px;}
+	#wrapper .text{font-size:21px;}
+}
